@@ -185,6 +185,7 @@ variable "nlb_subnet_cidr_blocks" {
 variable "kms_key_id" {
   description = "KMS customer managed key (CMK) ARN for encrypting application logs."
   type        = string
+  default     = ""
 }
 
 variable "additional_security_group_ids" {
